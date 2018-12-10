@@ -11,6 +11,7 @@ public class BaseUrl {
 		String baseUrl = "https://www.baidu.com";
 		driver.get(baseUrl);
 		System.out.println(driver.getTitle());
+		System.out.println("jhhhh");
 		driver.quit();
 		}
 	}
